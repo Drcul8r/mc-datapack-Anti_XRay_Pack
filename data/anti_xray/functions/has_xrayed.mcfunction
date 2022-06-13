@@ -2,4 +2,4 @@
 
 tellraw @a[tag=informed] ["",{"selector":"@s","color":"red"},{"text":" Appears to be X-Raying","color":"gold"}]
 
-execute if score x store_inforced matches 1 run ban @s You have been banned for X-Raying
+execute if score x store_inforced matches 1 run ban @s[type=player] You have been banned for X-Raying
